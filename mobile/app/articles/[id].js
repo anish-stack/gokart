@@ -44,7 +44,7 @@ export default function ArticleDetailScreen() {
   const [webViewHeight, setWebViewHeight] = useState(100);
 
   const { data, isLoading, isError, refetch } = useArticleDetail(id);
-
+  console.log(data)
   if (isLoading) {
     return <LoadingState />;
   }
