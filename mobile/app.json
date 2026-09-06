@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "GO! Track Express",
+    "slug": "go-track-express",
+    "version": "1.0.0",
+    "scheme": "go-track",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B2545"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ship.gotrackexpress",
+      "associatedDomains": [
+        "applinks:example.com"
+      ]
+    },
+    "android": {
+      "package": "com.ship.gotrackexpress",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B2545",
+        "foregroundImage": "./assets/icon.png"
+      },
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "example.com",
+              "pathPrefix": "/track"
+            },
+            {
+              "scheme": "go-track"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/icon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#1D64ED"
+        }
+      ],
+      "expo-localization",
+      "expo-build-properties",
+      "expo-status-bar"
+    ],
+    "extra": {
+      "router": {}
+    }
+  }
+}

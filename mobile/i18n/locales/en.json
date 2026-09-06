@@ -1,0 +1,140 @@
+{
+  "common": {
+    "appName": "GO! Track Express",
+    "loading": "Loading...",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "submit": "Submit",
+    "close": "Close",
+    "search": "Search",
+    "seeAll": "See all",
+    "offlineBanner": "You're offline. Showing the latest available information.",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "empty": "Nothing here yet.",
+    "copyAwb": "Copy AWB",
+    "copied": "Copied!",
+    "share": "Share",
+    "refresh": "Refresh"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "article": "Articles",
+    "contact": "Contact",
+    "more": "More"
+  },
+  "home": {
+    "title": "GO! Track Express",
+    "trackPlaceholder": "Enter AWB number",
+    "trackButton": "Track Shipment",
+    "recentShipments": "Recent Shipments",
+    "clearHistory": "Clear History",
+    "ourServices": "Our Services",
+    "ourProducts": "Our Products",
+    "tryDemo": "Try a demo AWB",
+    "no_shipments": "No shipments available.",
+    "shipment_overview": "Enter your tracking number above. Yo last 10 shipments are listed here.Up to 100 shipments can be listed in t overview. After that, the oldest one is removed from the list. The maximum storage period is 90 days."
+  },
+  "track": {
+    "title": "Track Shipment",
+    "inputLabel": "AWB Number",
+    "inputPlaceholder": "e.g. GO123456789",
+    "button": "Track",
+    "notFoundTitle": "Shipment not found",
+    "notFoundBody": "We couldn't find a shipment with that AWB number. Please double-check and try again."
+  },
+  "result": {
+    "title": "Tracking Result",
+    "courier": "Courier",
+    "origin": "Origin",
+    "destination": "Destination",
+    "currentLocation": "Current Location",
+    "eta": "Estimated Delivery",
+    "lastUpdated": "Last Updated",
+    "timeline": "Shipment Timeline",
+    "viewDetails": "View Details"
+  },
+  "services": {
+    "title": "Services",
+    "learnMore": "Learn more"
+  },
+  "articles": {
+    "title": "Articles"
+  },
+  "products": {
+    "title": "Products",
+    "viewProduct": "View Product"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "email": "Email",
+    "pincode": "Pincode",
+    "city": "City",
+    "state": "State",
+    "country": "Country",
+    "message": "Message",
+    "submit": "Send Message",
+    "success": "Thank you! We'll get back to you shortly.",
+    "callUs": "Call",
+    "whatsapp": "WhatsApp",
+    "emailUs": "Email",
+    "openMap": "Open Map",
+    "supportContact": "Support Contact"
+  },
+  "about": {
+    "title": "About Us",
+    "managingDirector": "Managing Director"
+  },
+  "legal": {
+    "title": "Legal Information",
+    "cin": "Corporate Identification Number (CIN)",
+    "registeredOffice": "Registered Office"
+  },
+  "privacy": { "title": "Privacy Policy" },
+  "terms": { "title": "Terms & Conditions" },
+  "faq": { "title": "FAQ" },
+  "more": {
+    "title": "More",
+    "articles": "Articles",
+    "about": "About Us",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "legal": "Legal",
+    "language": "Language",
+    "settings": "Settings",
+    "notifications": "Notification Settings"
+  },
+  "language": {
+    "title": "Switch Language"
+  },
+  "settings": {
+    "title": "Settings",
+    "recentShipments": "Recent Shipments",
+    "language": "Language",
+    "notifications": "Notification Settings",
+    "version": "App Version"
+  },
+  "notifSettings": {
+    "title": "Notification Settings",
+    "shipment": "Shipment Updates",
+    "marketing": "Marketing & Offers",
+    "service": "Service Announcements"
+  },
+  "maintenance": {
+    "title": "We'll be right back",
+    "body": "GO! Track Express is undergoing scheduled maintenance. Please check back soon."
+  },
+  "forceUpdate": {
+    "title": "Update Required",
+    "body": "A new version of GO! Track Express is available. Please update to continue.",
+    "button": "Update Now"
+  },
+  "notFoundScreen": {
+    "title": "Page not found",
+    "body": "The page you're looking for doesn't exist."
+  }
+}

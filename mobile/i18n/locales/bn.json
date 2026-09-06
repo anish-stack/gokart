@@ -1,0 +1,22 @@
+{
+  "common": { "appName": "গো! ট্র্যাক এক্সপ্রেস", "loading": "লোড হচ্ছে...", "retry": "আবার চেষ্টা করুন" },
+  "nav": { "home": "হোম", "products": "পণ্য", "article": "প্রবন্ধ", "contact": "যোগাযোগ", "more": "আরও" },
+  "home":
+   { "title": "গো! ট্র্যাক এক্সপ্রেস", "trackPlaceholder": "AWB নম্বর লিখুন", "trackButton": "শিপমেন্ট ট্র্যাক করুন", "recentShipments": "সাম্প্রতিক শিপমেন্ট", "clearHistory": "ইতিহাস মুছুন", "ourServices": "আমাদের সেবা", "ourProducts": "আমাদের পণ্য",
+"no_shipments": "কোনও শিপমেন্ট উপলব্ধ নেই।",
+
+"shipment_overview": "উপরে আপনার ট্র্যাকিং নম্বর লিখুন। আপনার শেষ ১০টি শিপমেন্ট এখানে তালিকাভুক্ত করা হয়েছে। এই তালিকায় সর্বাধিক ১০০টি শিপমেন্ট দেখানো যেতে পারে। এর পরে সবচেয়ে পুরোনো শিপমেন্টটি তালিকা থেকে সরিয়ে দেওয়া হবে। শিপমেন্টের সর্বাধিক সংরক্ষণকাল ৯০ দিন।" },
+  "track": { "title": "শিপমেন্ট ট্র্যাক করুন", "inputLabel": "AWB নম্বর", "button": "ট্র্যাক করুন", "notFoundTitle": "শিপমেন্ট পাওয়া যায়নি" },
+  "result": { "title": "ট্র্যাকিং ফলাফল", "courier": "কুরিয়ার", "origin": "উৎস", "destination": "গন্তব্য", "currentLocation": "বর্তমান অবস্থান", "eta": "আনুমানিক ডেলিভারি", "lastUpdated": "সর্বশেষ আপডেট", "timeline": "শিপমেন্ট টাইমলাইন" },
+  "services": { "title": "সেবা", "learnMore": "আরও জানুন" },
+  "products": { "title": "পণ্য", "viewProduct": "পণ্য দেখুন" },
+  "contact": { "title": "যোগাযোগ করুন", "name": "পুরো নাম", "phone": "ফোন নম্বর", "email": "ইমেইল", "pincode": "পিনকোড", "city": "শহর", "state": "রাজ্য", "country": "দেশ", "message": "বার্তা", "submit": "বার্তা পাঠান" },
+  "about": { "title": "আমাদের সম্পর্কে", "managingDirector": "ব্যবস্থাপনা পরিচালক" },
+  "legal": { "title": "আইনি তথ্য", "cin": "কর্পোরেট শনাক্তকরণ নম্বর (CIN)", "registeredOffice": "নিবন্ধিত কার্যালয়" },
+  "privacy": { "title": "গোপনীয়তা নীতি" },
+  "terms": { "title": "শর্তাবলী" },
+  "faq": { "title": "সচরাচর জিজ্ঞাসা" },
+  "more": { "title": "আরও", "about": "আমাদের সম্পর্কে", "contact": "যোগাযোগ", "privacy": "গোপনীয়তা নীতি", "terms": "শর্তাবলী", "legal": "আইনি", "language": "ভাষা", "settings": "সেটিংস", "notifications": "বিজ্ঞপ্তি সেটিংস" },
+  "language": { "title": "ভাষা পরিবর্তন করুন" },
+  "settings": { "title": "সেটিংস", "language": "ভাষা", "notifications": "বিজ্ঞপ্তি সেটিংস", "version": "অ্যাপ সংস্করণ" }
+}

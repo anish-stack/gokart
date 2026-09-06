@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "764504501711",
+    "project_id": "gotrackexpress-59bd3",
+    "storage_bucket": "gotrackexpress-59bd3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764504501711:android:f064f258143f3212ae76ba",
+        "android_client_info": {
+          "package_name": "com.ship.gotrackexpress"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLW0J_gmLcYtVb63q9ogEyf6WkY0O99UI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
