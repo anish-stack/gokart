@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = import.meta.env.VITE_API_BASE_URL || 'https://admingokart.imagecloud.online/api';
+const baseURL = import.meta.env.VITE_API_BASE_URL || 'https://gokart.imagecloud.online/api';
 
 const client = axios.create({ baseURL });
 

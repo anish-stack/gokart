@@ -7,7 +7,7 @@ import Constants from 'expo-constants';
  * a local dev default. No secrets live here - mobile is fully anonymous
  * and only ever talks to our own backend, never directly to the AWB provider.
  */
-const baseURL ='https://admingokart.imagecloud.online/api' ||
+const baseURL ='https://gokart.imagecloud.online/api' ||
   process.env.EXPO_PUBLIC_API_BASE_URL ||
   Constants.expoConfig?.extra?.apiBaseUrl ||
   'http://localhost:4000/api';
