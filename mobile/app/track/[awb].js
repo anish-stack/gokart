@@ -24,6 +24,16 @@ import { useRecentShipments } from '../../store/useRecentShipments';
 import { formatDate, formatEta } from '../../utils/formatters';
 import { COLORS } from '../../constants/brand';
 
+// origin/destination aate hain { hub, city, state, pincode } object ke form me
+const formatPlace = (place) => {
+  if (!place) return null;
+  if (typeof place === 'string') return place;
+  const main = place.hub || place.city;
+  const text = [main, place.state].filter(Boolean).join(', ');
+  if (!text && !place.pincode) return null;
+  return place.pincode ? `${text}${text ? ' - ' : ''}${place.pincode}` : text;
+};
+
 function InfoRow({ label, value }) {
   if (
     value === null ||
@@ -195,12 +205,12 @@ export default function TrackingResultScreen() {
 
         <InfoRow
           label={t('result.origin')}
-          value={data.origin}
+          value={formatPlace(data.origin)}
         />
 
         <InfoRow
           label={t('result.destination')}
-          value={data.destination}
+          value={formatPlace(data.destination)}
         />
 
         <InfoRow
