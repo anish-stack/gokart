@@ -250,7 +250,7 @@ const trackByAwb = asyncHandler(async (req, res) => {
       console.error(`Device AWB save failed for ${deviceId}:`, err.message);
     }
   }
-
+  console.log(result)
   return success(res, result);
 });
 
